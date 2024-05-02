@@ -1,0 +1,13 @@
+
+[Executed at: Wed Nov 15 15:28:59 PST 2023]
+
+Duration:  13.43131422996521
+Duration:  27.93746018409729
+Duration:  5.775247812271118
+hw5.jar not found
+task1, 2.5
+task2, 2.5
+task3, 2
+task1_scala, 0.0
+task2_scala, 0.0
+task3_scala, 0.0
