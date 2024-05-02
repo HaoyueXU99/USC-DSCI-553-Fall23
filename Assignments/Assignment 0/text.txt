@@ -1,0 +1,8 @@
+I am student.
+I love you.
+She is a Data Science Student.
+Hello.
+How are you?
+I am good.
+He is bad guy.
+
