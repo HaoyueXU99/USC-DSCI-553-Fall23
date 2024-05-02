@@ -1,0 +1,137 @@
+
+[Executed at: Fri Nov 10 15:27:49 PST 2023]
+
+==================================================
+Task 1 (python) runtime (ms), 115253
+Task 1: 2.0 out of 2
+==================================================
+Task 2 (python) runtime (ms), 16447
+Task 2.1: 2.0 out of 2
+Task 2.2: 3.0 out of 3
+==================================================
+
+23/11/10 15:25:36 WARN Utils: Your hostname, ip-172-31-34-190 resolves to a loopback address: 127.0.0.1; using 172.31.34.190 instead (on interface ens5)
+23/11/10 15:25:36 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+:: loading settings :: url = jar:file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /home/eee_G_2389780/.ivy2/cache
+The jars for the packages stored in: /home/eee_G_2389780/.ivy2/jars
+graphframes#graphframes added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-af0dcbd5-7b9a-46e7-ac03-c237aa828af8;1.0
+	confs: [default]
+	found graphframes#graphframes;0.8.1-spark3.0-s_2.12 in spark-packages
+	found org.slf4j#slf4j-api;1.7.16 in central
+:: resolution report :: resolve 212ms :: artifacts dl 12ms
+	:: modules in use:
+	graphframes#graphframes;0.8.1-spark3.0-s_2.12 from spark-packages in [default]
+	org.slf4j#slf4j-api;1.7.16 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-af0dcbd5-7b9a-46e7-ac03-c237aa828af8
+	confs: [default]
+	0 artifacts copied, 2 already retrieved (0kB/9ms)
+23/11/10 15:25:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/11/10 15:25:38 INFO SparkContext: Running Spark version 3.1.2
+23/11/10 15:25:38 INFO ResourceUtils: ==============================================================
+23/11/10 15:25:38 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/11/10 15:25:38 INFO ResourceUtils: ==============================================================
+23/11/10 15:25:38 INFO SparkContext: Submitted application: CommunityDetection
+23/11/10 15:25:38 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/11/10 15:25:38 INFO ResourceProfile: Limiting resource is cpu
+23/11/10 15:25:38 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/11/10 15:25:38 INFO SecurityManager: Changing view acls to: eee_G_2389780
+23/11/10 15:25:38 INFO SecurityManager: Changing modify acls to: eee_G_2389780
+23/11/10 15:25:38 INFO SecurityManager: Changing view acls groups to: 
+23/11/10 15:25:38 INFO SecurityManager: Changing modify acls groups to: 
+23/11/10 15:25:38 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(eee_G_2389780); groups with view permissions: Set(); users  with modify permissions: Set(eee_G_2389780); groups with modify permissions: Set()
+23/11/10 15:25:38 INFO Utils: Successfully started service 'sparkDriver' on port 33869.
+23/11/10 15:25:38 INFO SparkEnv: Registering MapOutputTracker
+23/11/10 15:25:38 INFO SparkEnv: Registering BlockManagerMaster
+23/11/10 15:25:38 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/11/10 15:25:38 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/11/10 15:25:38 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/11/10 15:25:38 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-71585b00-0579-415e-934d-99b52c699cff
+23/11/10 15:25:38 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/11/10 15:25:38 INFO SparkEnv: Registering OutputCommitCoordinator
+23/11/10 15:25:38 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/11/10 15:25:38 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.34.190:4040
+23/11/10 15:25:38 INFO SparkContext: Added JAR file:///home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar at spark://172.31.34.190:33869/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1699658738169
+23/11/10 15:25:38 INFO SparkContext: Added JAR file:///home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at spark://172.31.34.190:33869/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1699658738169
+23/11/10 15:25:38 INFO SparkContext: Added file file:///home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar at file:///home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1699658738169
+23/11/10 15:25:38 INFO Utils: Copying /home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+23/11/10 15:25:38 INFO SparkContext: Added file file:///home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar at file:///home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1699658738169
+23/11/10 15:25:38 INFO Utils: Copying /home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/org.slf4j_slf4j-api-1.7.16.jar
+23/11/10 15:25:38 INFO Executor: Starting executor ID driver on host 172.31.34.190
+23/11/10 15:25:38 INFO Executor: Fetching file:///home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1699658738169
+23/11/10 15:25:39 INFO Utils: /home/eee_G_2389780/.ivy2/jars/org.slf4j_slf4j-api-1.7.16.jar has been previously copied to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/org.slf4j_slf4j-api-1.7.16.jar
+23/11/10 15:25:39 INFO Executor: Fetching file:///home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1699658738169
+23/11/10 15:25:39 INFO Utils: /home/eee_G_2389780/.ivy2/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar has been previously copied to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+23/11/10 15:25:39 INFO Executor: Fetching spark://172.31.34.190:33869/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar with timestamp 1699658738169
+23/11/10 15:25:39 INFO TransportClientFactory: Successfully created connection to /172.31.34.190:33869 after 26 ms (0 ms spent in bootstraps)
+23/11/10 15:25:39 INFO Utils: Fetching spark://172.31.34.190:33869/jars/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/fetchFileTemp12370592881065344603.tmp
+23/11/10 15:25:39 INFO Utils: /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/fetchFileTemp12370592881065344603.tmp has been previously copied to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar
+23/11/10 15:25:39 INFO Executor: Adding file:/tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/graphframes_graphframes-0.8.1-spark3.0-s_2.12.jar to class loader
+23/11/10 15:25:39 INFO Executor: Fetching spark://172.31.34.190:33869/jars/org.slf4j_slf4j-api-1.7.16.jar with timestamp 1699658738169
+23/11/10 15:25:39 INFO Utils: Fetching spark://172.31.34.190:33869/jars/org.slf4j_slf4j-api-1.7.16.jar to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/fetchFileTemp17205548816971770573.tmp
+23/11/10 15:25:39 INFO Utils: /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/fetchFileTemp17205548816971770573.tmp has been previously copied to /tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/org.slf4j_slf4j-api-1.7.16.jar
+23/11/10 15:25:39 INFO Executor: Adding file:/tmp/spark-7d2fa576-0839-488f-b30b-7a224e4a1afd/userFiles-9a45421a-5fda-4b1d-a794-7d487f7eab72/org.slf4j_slf4j-api-1.7.16.jar to class loader
+23/11/10 15:25:39 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34541.
+23/11/10 15:25:39 INFO NettyBlockTransferService: Server created on 172.31.34.190:34541
+23/11/10 15:25:39 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/11/10 15:25:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.34.190, 34541, None)
+23/11/10 15:25:39 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.34.190:34541 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.34.190, 34541, None)
+23/11/10 15:25:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.34.190, 34541, None)
+23/11/10 15:25:39 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.34.190, 34541, None)
+Duration:  109.9644467830658
+2.0
+23/11/10 15:27:31 WARN Utils: Your hostname, ip-172-31-34-190 resolves to a loopback address: 127.0.0.1; using 172.31.34.190 instead (on interface ens5)
+23/11/10 15:27:31 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/spark-3.1.2-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.2.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+23/11/10 15:27:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+23/11/10 15:27:32 INFO SparkContext: Running Spark version 3.1.2
+23/11/10 15:27:32 INFO ResourceUtils: ==============================================================
+23/11/10 15:27:32 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/11/10 15:27:32 INFO ResourceUtils: ==============================================================
+23/11/10 15:27:32 INFO SparkContext: Submitted application: CommunityDetection
+23/11/10 15:27:32 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/11/10 15:27:32 INFO ResourceProfile: Limiting resource is cpu
+23/11/10 15:27:32 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/11/10 15:27:32 INFO SecurityManager: Changing view acls to: eee_G_2389780
+23/11/10 15:27:32 INFO SecurityManager: Changing modify acls to: eee_G_2389780
+23/11/10 15:27:32 INFO SecurityManager: Changing view acls groups to: 
+23/11/10 15:27:32 INFO SecurityManager: Changing modify acls groups to: 
+23/11/10 15:27:32 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(eee_G_2389780); groups with view permissions: Set(); users  with modify permissions: Set(eee_G_2389780); groups with modify permissions: Set()
+23/11/10 15:27:32 INFO Utils: Successfully started service 'sparkDriver' on port 42844.
+23/11/10 15:27:32 INFO SparkEnv: Registering MapOutputTracker
+23/11/10 15:27:33 INFO SparkEnv: Registering BlockManagerMaster
+23/11/10 15:27:33 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/11/10 15:27:33 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/11/10 15:27:33 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/11/10 15:27:33 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-96666ad8-ad9a-4573-a0f9-5d7ae439235d
+23/11/10 15:27:33 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/11/10 15:27:33 INFO SparkEnv: Registering OutputCommitCoordinator
+23/11/10 15:27:33 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/11/10 15:27:33 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.34.190:4040
+23/11/10 15:27:33 INFO Executor: Starting executor ID driver on host 172.31.34.190
+23/11/10 15:27:33 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44090.
+23/11/10 15:27:33 INFO NettyBlockTransferService: Server created on 172.31.34.190:44090
+23/11/10 15:27:33 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/11/10 15:27:33 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.34.190, 44090, None)
+23/11/10 15:27:33 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.34.190:44090 with 434.4 MiB RAM, BlockManagerId(driver, 172.31.34.190, 44090, None)
+23/11/10 15:27:33 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.34.190, 44090, None)
+23/11/10 15:27:33 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.34.190, 44090, None)
+Duration:  12.945856094360352
