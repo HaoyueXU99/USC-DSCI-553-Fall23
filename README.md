@@ -25,9 +25,6 @@ This repository contains my coursework and projects for DSCI 553, a comprehensiv
 7. **Link Analysis and Web Advertising**
 8. **Advanced Topics in Clustering and Classification**
 
-Certainly! Here’s an updated section of your README to include direct links to the sub-readme files for each assignment and your final project. This will help organize and showcase the specific details of your coursework and projects in DSCI 553.
-
----
 
 ### Assignments
 
@@ -46,8 +43,6 @@ The final project involved enhancing the recommendation system developed in Assi
 
 - [Competition Project](Assignments/Competition/README.md) - Advanced work on the recommendation system, including detailed objectives, implementation strategies, and performance outcomes. Highlights include the integration of multiple data sources from Yelp and the application of hybrid models to enhance recommendation accuracy.
 
-
-
 ### Technologies Used
 
 - **Apache Spark**: Utilized for large-scale data processing.
@@ -61,6 +56,3 @@ Instructions on how to set up and run the projects locally, including installati
 ### About the Author
 
 A brief introduction about yourself, your academic background, and your interests in data science and machine learning.
-
-
-
