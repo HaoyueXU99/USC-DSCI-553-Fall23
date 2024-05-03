@@ -29,18 +29,18 @@ This repository contains my coursework and projects for DSCI 553, a comprehensiv
 
 This section provides an overview of the six homework assignments and the final project, all implemented using PySpark. Each assignment was designed to reinforce the concepts covered in the lectures and readings.
 
-- [Assignment 1: Data Exploration with Spark](Assignments/Assignment1/README.md) - Introduction to basic Spark operations and data handling. [7/7]
-- [Assignment 2: SON Algorithm Implementation](Assignments/Assignment2/README.md) - Building and optimizing the SON algorithm for market basket analysis. [7/7]
-- [Assignment 3: Recommendation Systems](Assignments/Assignment3/README.md) - Developing a recommendation system using collaborative filtering and matrix factorization techniques. [7/7]
-- [Assignment 4: Graph Analysis with GraphFrames](Assignments/Assignment4/README.md) - Implementing community detection using Spark's GraphFrames. [7/7]
-- [Assignment 5: Streaming Algorithms](Assignments/Assignment5/README.md) - Exploring streaming algorithms like Bloom Filtering and Flajolet-Martin on simulated data streams.[7/7]
-- [Assignment 6: Clustering with the BFR Algorithm](Assignments/Assignment6/README.md) - Application of the BFR clustering algorithm on synthetic datasets to handle large data sets efficiently.
+- [Assignment 1: Data Exploration with Spark (7/7)](Assignments/Assignment1/README.md) - Introduction to basic Spark operations and data handling.
+- [Assignment 2: SON Algorithm Implementation (7/7)](Assignments/Assignment2/README.md) - Building and optimizing the SON algorithm for market basket analysis. 
+- [Assignment 3: Recommendation Systems (7/7)](Assignments/Assignment3/README.md) - Developing a recommendation system using collaborative filtering and matrix factorization techniques.
+- [Assignment 4: Graph Analysis with GraphFrames (7/7)](Assignments/Assignment4/README.md) - Implementing community detection using Spark's GraphFrames.
+- [Assignment 5: Streaming Algorithms (7/7)](Assignments/Assignment5/README.md) - Exploring streaming algorithms like Bloom Filtering and Flajolet-Martin on simulated data streams.
+- [Assignment 6: Clustering with the BFR Algorithm (7/7)](Assignments/Assignment6/README.md) - Application of the BFR clustering algorithm on synthetic datasets to handle large data sets efficiently.
 
 ## Final Project
 
 The final project involved enhancing the recommendation system developed in Assignment 3, focusing on improving prediction accuracy and computational efficiency. The project is a part of a competition, details of which can be further explored in the comprehensive project documentation.
 
-- [Competition Project](Assignments/Competition/README.md) - Advanced work on the recommendation system, including detailed objectives, implementation strategies, and performance outcomes. Highlights include the integration of multiple data sources from Yelp and the application of hybrid models to enhance recommendation accuracy.[8/8]
+- [Competition Project (8/8)](Assignments/Competition/README.md) - Advanced work on the recommendation system, including detailed objectives, implementation strategies, and performance outcomes. Highlights include the integration of multiple data sources from Yelp and the application of hybrid models to enhance recommendation accuracy.
 
 ## Technologies Used
 

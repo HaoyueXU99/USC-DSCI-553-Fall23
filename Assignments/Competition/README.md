@@ -41,3 +41,9 @@ Ensure your environment is configured correctly with Python 3.6 and Spark 3.1.2.
 ## Usage
 
 Replace `<folder_path>`, `<test_file_name>`, and `<output_file_name>` with your actual file paths and parameters. Ensure the dataset and environment settings are correct to replicate the expected setup on Vocareum.
+
+## IMPORTANT HINTS
+
+1. To achieve a lower RMSE, I recommend that you try adding more features from the existing training data. Based on my observations, the more features you add, the better your results will be.
+
+2. Parameter Tuning: Try increasing the `n_estimators` parameter (more trees increase the model's complexity, allowing it to learn the data better) and the `max_depth` (greater depth enables the model to learn more detailed feature relationships in the data).
