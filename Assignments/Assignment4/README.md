@@ -52,3 +52,18 @@ Replace `<filter_threshold>`, `<input_file_path>`, and `<community_output_file_p
 
 - **Task 1**: Outputs a text file listing communities detected by the Label Propagation Algorithm.
 - **Task 2**: Outputs two text files: one for the betweenness of each edge and one for the detected communities.
+
+## NOTICE
+
+If you find difficulty in passing the task2.2:
+
+1. **Stopping Criteria**: For HW-4 Task 2.2, it's essential not to halt your search prematurely at the first sign of a decrease in modularity. Continue exploring all potential partitions to find the global maximum. This approach prevents overlooking the optimal solution, ensuring a thorough and accurate result.
+
+2. **Modularity Calculation**:
+   - Ensure that for adjacency matrix `A`, `A=1` only if BOTH node `i` is connected to node `j` AND node `j` is connected to node `i`.
+   - Use the current graph to determine `A` and the original graph to calculate the product of the node degrees (`ki*kj`).
+   - Calculate modularity for all possible communities until no edges remain. This exhaustive check helps verify the accuracy of your solution.
+
+Please also check the modularity equation:
+
+![alt text](image.png)
