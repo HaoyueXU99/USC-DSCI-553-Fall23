@@ -53,7 +53,7 @@ Replace `<filter_threshold>`, `<input_file_path>`, and `<community_output_file_p
 - **Task 1**: Outputs a text file listing communities detected by the Label Propagation Algorithm.
 - **Task 2**: Outputs two text files: one for the betweenness of each edge and one for the detected communities.
 
-## NOTICE
+## IMPORTANT HINTS
 
 If you find difficulty in passing the task2.2:
 

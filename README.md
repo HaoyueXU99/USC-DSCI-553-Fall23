@@ -1,8 +1,9 @@
 
 # DSCI 553: Foundations and Applications of Data Mining
 
-> University of Southern California
-> Notice: This repository may be closed at the start of the new semester, so if you find this code useful, please make sure to back it up in advance. I would appreciate it if you could give me a Star.
+University of Southern California FALL 2023
+
+> Notice: This repository may be closed at the start of the new semester, so if you find this code useful, please make sure to back it up in advance. I would appreciate it if you could give me a **Star**.
 
 ## Overview
 
@@ -27,6 +28,8 @@ This repository contains my coursework and projects for DSCI 553, a comprehensiv
 
 ## Assignments
 
+> Some important hints may be contained in README files, don't miss that!
+
 This section provides an overview of the six homework assignments and the final project, all implemented using PySpark. Each assignment was designed to reinforce the concepts covered in the lectures and readings.
 
 - [Assignment 1: Data Exploration with Spark (7/7)](Assignments/Assignment1/README.md) - Introduction to basic Spark operations and data handling.
@@ -48,9 +51,13 @@ The final project involved enhancing the recommendation system developed in Assi
 - **Python**: Primary programming language for implementing data mining algorithms.
 - **Scala**: Additional implementations to complement PySpark scripts.
 
-## How to Use This Repository
+## Resources
 
-Instructions on how to set up and run the projects locally, including installation of necessary software and libraries.
+Please refer to the resource folder for set up instructions.
+
+Other Useful Links:
+
+- [Instructions on installing Spark (version 3.1.2) on your local machine (see step 6)](https://www.simplilearn.com/tutorials/apache-spark-tutorial/install-spark)
 
 ## About the Author
 
