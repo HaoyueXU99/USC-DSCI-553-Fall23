@@ -3,7 +3,7 @@
 
 University of Southern California FALL 2023
 
-> Notice: This repository may be closed at the start of the new semester, so if you find this code useful, please make sure to back it up in advance. I would appreciate it if you could give me a **Star**.
+> Notice: This repository may be closed at the start of the new semester, so if you find this code useful, please make sure to back it up in advance. I would appreciate it if you could give me a **Star**. :sparkles:
 
 ## Overview
 
