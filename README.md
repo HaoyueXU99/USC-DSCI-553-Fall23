@@ -59,6 +59,3 @@ Other Useful Links:
 
 - [Instructions on installing Spark (version 3.1.2) on your local machine (see step 6)](https://www.simplilearn.com/tutorials/apache-spark-tutorial/install-spark)
 
-## About the Author
-
-A brief introduction about yourself, your academic background, and your interests in data science and machine learning.
