@@ -58,4 +58,3 @@ Please refer to the resource folder for set up instructions.
 Other Useful Links:
 
 - [Instructions on installing Spark (version 3.1.2) on your local machine (see step 6)](https://www.simplilearn.com/tutorials/apache-spark-tutorial/install-spark)
-
